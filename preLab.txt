@@ -1,0 +1,11 @@
+Bubble Sort: repeatedly swaps adjacent elements if they are in the wrong order. O(n^2)
+Selection Sort: repeatedly searches the array for the smallest element and swaps it with the
+    lowest index unsorted element. O(n^2)
+Insertion Sort: assumes first element is sorted and then places the first unsorted element in it's sorted
+    location relative to the sorted element. O(n^2)
+Merge Sort: Recursivley split the array until each sub array had zero or one elements. The combine the 
+    sub-arrays in sorted order. O(nlog(n))
+Quick Sort: Select a central elemnt to partition and swap elements on either side until it is in the 
+    correct location. 0(nlog(n))
+Radix Sort: assumes data is in a specified range and map the data to a count array. The count array gives
+    the position of each element. O(n).
