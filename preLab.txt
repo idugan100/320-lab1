@@ -16,3 +16,12 @@ Radix Sort: assumes data is in a specified range and map the data to a count arr
     the position of each element. O(n).
 
 
+Question 1: The algorithm ends when it has found the max and minimum and swapped them to their correct 
+    locations n/2 times when n is even and (n-1)/2 times when n is odd because the element in the 
+    middle will be in the correct location even though it hasn't been selected as a min or max.
+
+Question 2: Selection sort can be bounded by big theta(n^2/2) because it has to iterate over each location to 
+    find the minimum, but each iteration to find the current minimumin  in only n-i iterations where i 
+    is the index of the first unsorted element. Double ended selection sort can be bounded by big theta 
+    (n^2/4) because it take only n-2i iterations to find the current minimum where i is the index of the 
+    first unsorted element.

@@ -21,9 +21,9 @@ void delsort(int size, int array[]){
         }
     }
     //data display and swap
-    cout<< "the minninmum is "<<array[minIndex]<<" at index "<<minIndex<<endl;
-    cout<< "the maximum is "<< array[maxIndex]<<" at index "<<maxIndex<<endl;
-    cout<<"swapping..."<<endl;
+    //cout<< "the minninmum is "<<array[minIndex]<<" at index "<<minIndex<<endl;
+    //cout<< "the maximum is "<< array[maxIndex]<<" at index "<<maxIndex<<endl;
+    //cout<<"swapping..."<<endl;
     
     swap(array[minIndex],array[j]);
     if(!(j==maxIndex && size-1==minIndex)){
@@ -35,6 +35,7 @@ void delsort(int size, int array[]){
     for(int i=0;i<ogSize;i++){
         cout<<array[i]<<" ";
     }
+    cout<<endl;
     
  
 
