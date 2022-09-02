@@ -1,11 +1,12 @@
 #include <iostream>
+#include <array>
 #include "deSelsort.h"
 using namespace std;
 
 int main(){
-    int array[6]={2, 1, 22, 17, 8, 21};
-    int size=sizeof(array)/sizeof(array[0]);
-    delsort(size,array);
+    int array[6]={6,5,4,3,2,1};
+    delsort(sizeof(array)/sizeof(array[0]),array);
+   
     
 
 

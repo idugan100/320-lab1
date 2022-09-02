@@ -1,6 +1,8 @@
 #include <array>
 using namespace std;
-void delsort(int size, int array[]){
+void delsort( int size,int array[]){
+
+
     int ogSize=size;
 
     for(int j=0;j<size;j++){
